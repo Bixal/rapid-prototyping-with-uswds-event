@@ -1,8 +1,8 @@
 # Set a plain language title for the site.
-title: USWDS Boilerplate
+title: Project Story
 
 # Write a short description for the site. This is used for "meta description."
-description: A starting point for publishing a site using Jekyll, GitHub Pages, and a hosted version of the U.S. Web Design System
+description: A site that captures the story and artifacts of projects completed by the Rapid Response Team.
 
 # Set the language for the site. Used for "html lang." Default is English.
 lang: en
@@ -14,7 +14,7 @@ ga: UA-XXXXX-Y
 github: [metadata]
 
 # Enable for live hosting on GitHub Pages
-baseurl: /uswds-boilerplate
+baseurl: /project-story
 
 # Remove generation of additional style.css
 theme: null
