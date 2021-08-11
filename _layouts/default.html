@@ -14,7 +14,27 @@
 
 <body>
   <main id="main content">
-    {{ site.slides }}
+      {% for slide in site.slides %}
+        {% if slide.template == "text" %}
+          <section class="bg-bixal-{{ slide.bg-color }}">
+              <div class="grid-container">
+                  <div class="display-flex flex-row height-viewport">
+                      <div class="tablet:font-body-lg desktop:font-body-xl bixal-font-sans-serif text-bixal-{{ slide.text-color }} text-semibold flex-align-self-center">
+                        <h1 class="bixal-font-serif">{{ slide.title }}</h1>
+            {{ slide.content }}</div>
+                  </div>
+              </div>
+          </section>
+        {% elsif slide.template == "title" %}
+          <section id="{{ slide.title | slugify }}" class="bg-primary height-viewport">
+            <div class="grid-container">
+                <div class="display-flex flex-row height-viewport">
+                    <h1 class="font-family-heading custom-font-size-18 text-white flex-align-self-center">{{ slide.title }}</h1>
+                </div>
+            </div>
+          </section>
+        {% endif %}
+      {% endfor %}
   </main>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.0/js/uswds.min.js" integrity="sha512-E8cQqs8stInR6gI5P8lC0cnD0ee00C+XM1vYSCBm9Lr6s20CUQhYi6ZcXpBYE3v17EAXOqxqppkJRzFuOy4P1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
