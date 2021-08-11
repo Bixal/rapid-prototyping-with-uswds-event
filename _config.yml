@@ -18,3 +18,7 @@ baseurl: /project-story
 
 # Remove generation of additional style.css
 theme: null
+
+collections:
+  slides:
+    output: true
