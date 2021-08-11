@@ -15,3 +15,8 @@ a {
 .text-semibold {
   font-weight: 600;
 }
+
+  /* system token 18, ~80px */
+  .custom-font-size-18 {
+    font-size: 5rem !important; 
+  }
