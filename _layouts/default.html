@@ -17,6 +17,7 @@
 
 <body>
   <main id="main content">
+    {% include header-horizontal.html %}
       {% for slide in site.slides %}
         {% if slide.template == "text" %}
           <section class="bg-bixal-{{ slide.bg-color }}">
