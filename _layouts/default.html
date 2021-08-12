@@ -21,7 +21,7 @@
       {% for slide in site.slides %}
       {% assign next_i = forloop.index0 | plus: 1 %}
         {% if slide.template == "text" %}
-          <section class="bg-bixal-{{ slide.bg-color }}">
+          <section class="bg-bixal-{{ slide.background-color }}">
               <a name="{{ slide.title | slugify }}"></a>
               <div class="grid-container">
                   <div class="display-flex flex-row height-viewport">
