@@ -19,12 +19,14 @@
   <main id="main-content">
     <!-- {% include header-horizontal.html %} -->
       {% for slide in site.slides %}
+      {% assign next_i = forloop.index0 | plus: 1 %}
         {% if slide.template == "text" %}
           <section class="bg-bixal-{{ slide.bg-color }}">
+              <a name="{{ slide.title | slugify }}"></a>
               <div class="grid-container">
                   <div class="display-flex flex-row height-viewport">
                       <div class="tablet:font-body-lg desktop:font-body-xl bixal-font-sans-serif text-bixal-{{ slide.text-color }} text-semibold flex-align-self-center">
-                        <h1 class="bixal-font-serif">{{ slide.title }}</h1>
+                        <h1 class="bixal-font-serif">{{ slide.title }}</h1><span>Next: <a href="#{{ site.slides[next_i].title | slugify }}">{{ site.slides[next_i].title }}</a></span>
             {{ slide.content }}</div>
                   </div>
               </div>
@@ -33,7 +35,7 @@
           <section id="{{ slide.title | slugify }}" class="bg-primary height-viewport">
             <div class="grid-container">
                 <div class="display-flex flex-row height-viewport">
-                    <h1 class="font-family-heading custom-font-size-18 line-height-heading-3 text-white flex-align-self-center">{{ slide.title }}</h1>
+                    <h1 class="font-family-heading custom-font-size-18 line-height-heading-3 text-ls-1 text-white flex-align-self-center">{{ slide.title }}</h1>
                 </div>
             </div>
           </section>
