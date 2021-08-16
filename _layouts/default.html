@@ -9,12 +9,46 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.0/js/uswds-init.min.js" integrity="sha512-Zy/dqU71uCdMWS6VdSqc/+2RjOxbq/ySinrQyLG3wTVWSXtBQpK6/b2Ky6vT2JHuFsNm8yBZMJ8zeMQ/ji2qMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.0/css/uswds.min.css" integrity="sha512-pB+mNjrbVe3EOCg2eOozwwgUyFg49qm23xXsyHUH1cSYqyvf2Wit8Sv35Rfo2HpIBRV8Z7pPKMjVuXslXewWzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://use.typekit.net/wfu7yyr.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bixal/brand-css@v2.0/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bixal/brand-css@v2.0/utilities-for-uswds.css" />
   <link rel="stylesheet" href="{{ site.baseurl}}/assets/css/custom.css" />
 </head>
 
-<body class="padding-y-3">
-  <main class="grid-container">
-    {{ content }}
+<body>
+  <main id="main-content">
+    <!-- {% include header-horizontal.html %} -->
+      {% for slide in site.slides %}
+      {% assign next_i = forloop.index0 | plus: 1 %}
+        {% if slide.template == "text" %}
+          <section class="bg-bixal-{{ slide.background-color }}">
+              <a name="{{ slide.title | slugify }}"></a>
+              <div class="grid-container">
+                  <div class="display-flex flex-row height-viewport">
+                      <div class="tablet:font-body-lg desktop:font-body-xl bixal-font-sans-serif text-bixal-{{ slide.text-color }} text-semibold flex-align-self-center">
+                        <h1 class="bixal-font-serif">{{ slide.title }}</h1><span>Next: <a href="#{{ site.slides[next_i].title | slugify }}">{{ site.slides[next_i].title }}</a></span>
+            {{ slide.content }}</div>
+                  </div>
+              </div>
+          </section>
+        {% elsif slide.template == "title" %}
+          <section id="{{ slide.title | slugify }}" class="bg-primary height-viewport">
+            <div class="grid-container">
+                <div class="display-flex flex-row height-viewport">
+                    <h1 class="font-family-heading custom-font-size-18 line-height-heading-3 text-ls-1 text-white flex-align-self-center">{{ slide.title }}</h1>
+                </div>
+            </div>
+          </section>
+        {% elsif slide.template == "subtitle" %}
+          <section id="{{ slide.title | slugify }}" class="bg-primary height-viewport">
+            <div class="grid-container">
+                <div class="display-flex flex-row height-viewport">
+                    <h1 class="font-family-heading custom-font-size-18 text-white flex-align-self-center">{{ slide.title }}</h1>
+                </div>
+            </div>
+          </section>
+        {% endif %}
+      {% endfor %}
   </main>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.0/js/uswds.min.js" integrity="sha512-E8cQqs8stInR6gI5P8lC0cnD0ee00C+XM1vYSCBm9Lr6s20CUQhYi6ZcXpBYE3v17EAXOqxqppkJRzFuOy4P1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
