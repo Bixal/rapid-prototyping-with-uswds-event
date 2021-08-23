@@ -23,13 +23,7 @@
         {% if slide.template == "text" %}
           {% include template-text.html %}
         {% elsif slide.template == "title" %}
-          <section id="{{ slide.title | slugify }}" class="bg-primary height-viewport">
-            <div class="grid-container">
-                <div class="display-flex flex-row height-viewport">
-                    <h1 class="font-family-heading custom-font-size-18 line-height-heading-3 text-ls-1 text-white flex-align-self-center">{{ slide.title }}</h1>
-                </div>
-            </div>
-          </section>
+          {% include template-title.html %}
         {% elsif slide.template == "subtitle" %}
           {% include template-subtitle.html %}
         {% endif %}
