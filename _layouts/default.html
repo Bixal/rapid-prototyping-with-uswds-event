@@ -26,6 +26,8 @@
           {% include template-title.html %}
         {% elsif slide.template == "subtitle" %}
           {% include template-subtitle.html %}
+        {% elsif slide.template == "blockquote" %}
+          {% include template-blockquote.html %}
         {% endif %}
       {% endfor %}
   </main>
