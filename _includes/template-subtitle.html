@@ -1,0 +1,10 @@
+<section tabindex="0" aria-label="New slide" class="bg-bixal-{{ slide.background-color }}">
+    <div class="grid-container display-flex">
+        <div class="display-flex flex-column height-viewport tablet:font-body-lg desktop:font-body-xl bixal-font-sans-serif text-bixal-{{ slide.text-color }}">
+            <div class="bixal-font-serif flex-fill display-flex">
+                <h1 class="flex-align-self-center custom-font-size-18">{{ slide.title }}</h1>
+            </div>
+            {% include slide-next.html %}
+        </div>
+    </div>
+</section>

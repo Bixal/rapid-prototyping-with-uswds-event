@@ -31,13 +31,7 @@
             </div>
           </section>
         {% elsif slide.template == "subtitle" %}
-          <section id="{{ slide.title | slugify }}" class="bg-primary height-viewport">
-            <div class="grid-container">
-                <div class="display-flex flex-row height-viewport">
-                    <h1 class="font-family-heading custom-font-size-18 text-white flex-align-self-center">{{ slide.title }}</h1>
-                </div>
-            </div>
-          </section>
+          {% include template-subtitle.html %}
         {% endif %}
       {% endfor %}
   </main>
