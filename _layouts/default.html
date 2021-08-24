@@ -28,6 +28,8 @@
           {% include template-subtitle.html %}
         {% elsif slide.template == "blockquote" %}
           {% include template-blockquote.html %}
+        {% elsif slide.template == "text-with-image-bg" %}
+          {% include template-text-with-image-bg.html %}
         {% endif %}
       {% endfor %}
   </main>
