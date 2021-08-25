@@ -1,8 +1,8 @@
 # Set a plain language title for the site.
-title: Project Story
+title: Rapid prototyping for the web using the U.S. Web Design System
 
 # Write a short description for the site. This is used for "meta description."
-description: A site that captures the story and artifacts of projects completed by the Rapid Response Team.
+description: Presentation slides and background information for an event hosted by the Rapid Response Team at Bixal.
 
 # Set the language for the site. Used for "html lang." Default is English.
 lang: en
@@ -14,7 +14,7 @@ ga: UA-XXXXX-Y
 github: [metadata]
 
 # Enable for live hosting on GitHub Pages
-baseurl: /project-story
+baseurl: /rapid-prototyping-with-uswds-event
 
 # Remove generation of additional style.css
 theme: null
