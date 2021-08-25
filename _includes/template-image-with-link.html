@@ -1,0 +1,17 @@
+<section class="height-viewport bg-bixal-{{ slide.background-color }} padding-y-3">
+	<a name="{{ slide.title | slugify }}"></a>
+		<div class="grid-container display-flex">
+			<div class="flex-column flex-align-self-center tablet:font-body-lg desktop:font-body-xl bixal-font-sans-serif text-bixal-{{ slide.text-color }}">
+	            {% include slide-count.html %}
+				<h1 class="text-bixal-{{ slide.text-color }} font-body-3xl bixal-font-serif">{{ slide.title }}</h1>
+			<div class="grid-row">
+				<div class="grid-container">
+					<a href="{{ slide.link }}" target="_blank">
+				        <img src="{{ site.baseurl }}/assets/img/{{ slide.image-source }}" alt="{{ slide.image-alt-text }}" class="maxh-mobile-lg border-05">
+				    </a>
+				</div>
+			</div>
+			{% include slide-next.html %}
+			</div>
+       </div>
+</section>

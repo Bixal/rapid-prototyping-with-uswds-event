@@ -30,6 +30,8 @@
           {% include template-blockquote.html %}
         {% elsif slide.template == "text-with-image-bg" %}
           {% include template-text-with-image-bg.html %}
+        {% elsif slide.template == "image-with-link" %}
+          {% include template-image-with-link.html %}
         {% endif %}
       {% endfor %}
   </main>
