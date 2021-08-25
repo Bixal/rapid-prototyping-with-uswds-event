@@ -1,0 +1,7 @@
+{% if slide.heading-level == 2 %}
+<h2 class="custom-font-size-17 bixal-font-serif">{{ slide.title }}</h2>
+{% elsif slide.heading-level == 3 %}
+<h3 class="custom-font-size-17 bixal-font-serif">{{ slide.title }}</h3>
+{% else %}
+<div class="custom-font-size-17 bixal-font-serif">{{ slide.title }}</div>
+{% endif %}
