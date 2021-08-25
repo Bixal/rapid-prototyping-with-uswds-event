@@ -86,11 +86,11 @@ After making and testing 3 versions in less than 4 weeks, we demonstrated major 
 
 Before: [HHS OCR Complaint Portal Assistant](https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf)
 
-![](https://lh5.googleusercontent.com/A_-eJI8VxY_4xmTXfri_IJGLg1Crcr9d3ajoF9gWgR5RrlU08c0naQvR-DzcGkfqFa3voLQjU6Wghw1Z3xTfnUhwG-2V5HvFmcXm_E48IWfUtYoadoQ00wJp6vicR_Ua11rgzTfd=s0)
+![Screenshot of the HHS OCR Complaint Portal Assistant](https://user-images.githubusercontent.com/5177337/130708696-12c73c11-54c2-4369-a9e9-92c1c0ec8c63.png)
 
 After: [USWDS Screener Prototyping Tool](https://bixal.github.io/uswds-screener-prototyping-tool/)
 
-![](https://lh6.googleusercontent.com/wU7jxmhBuUWCS17EUCkzHIaFnj8qtZ74PkDflembndYiZ0S-s93G8BlenzBZGzg6PZuVbvR-ejgIrdai6SV50sLzL7HtZTl1e_uuwN5Nu_TUMq4178hvWbpXD8cds5E98qmHbmAf=s0)
+![Screenshot of the USWDS Screener Prototyping Tool](https://user-images.githubusercontent.com/5177337/130708836-e05f8b1e-220a-4077-955b-4cc7b71eed74.png)
 
 ## Template Workshop
 
