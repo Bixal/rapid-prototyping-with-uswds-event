@@ -1,4 +1,4 @@
-<section tabindex="0" aria-label="New slide" class="bg-bixal-{{ slide.background-color }}">
+<section class="bg-bixal-{{ slide.background-color }}">
     <a name="{{ slide.title | slugify }}"></a>
     <div class="grid-row">
         <div class="grid-col-6 order-{{ slide.text-order }}">
@@ -6,7 +6,7 @@
                 <div class="display-flex flex-column flex-justify height-viewport tablet:font-body-lg desktop:font-body-xl bixal-font-sans-serif text-bixal-{{ slide.text-color }} text-semibold">
                     {% include slide-count.html %}
                     <div class="flex-fill">
-                        <h1 class="bixal-font-serif">{{ slide.title }}</h1>
+                        {% include slide-title.html %}
                         {{ slide.content }}
                     </div>
                     {% include slide-next.html %}
