@@ -1,6 +1,6 @@
 # Rapid prototyping for the web using the U.S. Web Design System
 
-At Bixal, we believe fast cycles of prototyping and testing accelerate learning, reduce risk, and improve outcomes. We started a dedicated internal team to explore new processes and tools for using web-based prototyping to help our delivery teams lower the barriers to making ideas more tangible more quickly.
+At [Bixal](https://www.bixal.com/), we believe fast cycles of prototyping and testing accelerate learning, reduce risk, and improve outcomes. We started a dedicated internal team to explore new processes and tools for using web-based prototyping to help our delivery teams lower the barriers to making ideas more tangible more quickly.
 
 If you're here, you'll probably be joining our event where we, the Rapid Response team, will be presenting who we are and what we're all about. 
 
