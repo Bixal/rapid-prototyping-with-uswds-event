@@ -9,7 +9,7 @@ We'll take you through a case study on how we improved the HHS OCR complaint por
 ## What to do before the event
 
 These suggestions are all optional, but if you're interested, you may get more out of time together if you do these things ahead of time:
-- Read a summary of the project we'll be covering.
+- Read a [summary](https://github.com/Bixal/rapid-response-team/wiki/Project-story-%E2%80%94-USWDS-Screener-Prototyping-Tool) of the project we'll be covering.
 - Poke around the [live site](https://bixal.github.io/uswds-screener-prototyping-tool/) to see how it works.
 - Read the [readme](https://github.com/Bixal/uswds-screener-prototyping-tool#readme) of the GitHub project.
 - Create a [GitHub account](https://github.com/).
