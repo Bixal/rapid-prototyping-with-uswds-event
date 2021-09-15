@@ -23,6 +23,20 @@ These suggestions are all optional, but if you're interested, you may get more o
 
 ## Background
 
+### About Bixal
+
+Bixal is a mission-driven organization determined to have a positive impact on the lives of people everywhere.
+We do this by partnering with leading federal agencies to conceive and create powerful data-driven customer experiences to better serve the American public and communities around the world.
+
+### Who we are
+
+- **Brianna Naolu**  
+  UX Designer, Bixal
+- **Kayla Chumley**  
+  UI Designer, U.Group
+- **Philip Levy**  
+  Director of Experience Design, Bixal
+
 ### Why we’re here
 
 At [Bixal](https://www.bixal.com/), we believe fast cycles of prototyping and testing accelerate learning, reduce risk, and improve outcomes. We started a dedicated internal team to explore new processes and tools for using web-based prototyping to help our delivery teams lower the barriers to making ideas more tangible more quickly.
@@ -36,6 +50,8 @@ As part of the [21st Century Integrated Digital Experience Act](https://digital.
 - Consult our federal partners
 - Support the growth of our business and practices
 - Contribute to the community
+
+*Additionally, we want to empower designers to take ownership of prototyping in the web medium and enable them to better collaborate with developers through the common language of the U.S. Web Design System.*
 
 ### Principles
 
