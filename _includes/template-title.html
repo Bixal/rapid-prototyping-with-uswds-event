@@ -1,10 +1,11 @@
-<section class="bg-bixal-{{ slide.background-color }}">
+<section class="bg-bixal-{{ slide.background-color }}" style="background: bottom / cover no-repeat url({{ site.baseurl}}/assets/img/colorful-wavy-lines.jpg)">
     <a name="{{ slide.title | slugify }}"></a>
-    <div class="grid-container display-flex">
-        <div class="display-flex flex-column height-viewport tablet:font-body-lg desktop:font-body-xl bixal-font-sans-serif text-bixal-{{ slide.text-color }}">
-            <div class="bixal-font-serif flex-fill display-flex">
-                <h1 class="flex-align-self-center custom-font-size-18 line-height-3 text-ls-1">{{ slide.title }}</h1>
+    <div class="tablet:font-body-lg desktop:font-body-xl bixal-font-sans-serif text-bixal-{{ slide.text-color }}">    
+        <div class="display-flex flex-row height-viewport">
+            <div class="flex-align-self-center bixal-font-serif grid-container radius-md z-top" style="background: rgba(125, 0, 150, .8);">
+                <h1 class="custom-font-size-18 line-height-3 text-ls-1 text-base-lightest text-center">{{ slide.title }}</h1>
             </div>
         </div>
+        <img src="{{ site.baseurl }}/assets/img/b-orange.svg" alt="" class="z-100" style="position:absolute; right:64px; top:-180px; width:280px;">   
     </div>
 </section>
