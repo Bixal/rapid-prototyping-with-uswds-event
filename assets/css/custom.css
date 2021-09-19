@@ -16,6 +16,11 @@ a {
   font-weight: 600;
 }
 
+/* system token 16, ~56px */
+.custom-font-size-16 {
+  font-size: 3.5rem !important; 
+}
+
 /* system token 18, ~80px */
 .custom-font-size-18 {
   font-size: 5rem !important; 
