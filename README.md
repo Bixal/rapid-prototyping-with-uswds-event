@@ -106,7 +106,7 @@ Before: [HHS OCR Complaint Portal Assistant](https://ocrportal.hhs.gov/ocr/smart
 
 After: [USWDS Screener Prototyping Tool](https://bixal.github.io/uswds-screener-prototyping-tool/)
 
-![Screenshot of the USWDS Screener Prototyping Tool](https://user-images.githubusercontent.com/5177337/130708836-e05f8b1e-220a-4077-955b-4cc7b71eed74.png)
+![Screenshot of the USWDS Screener Prototyping Tool](https://user-images.githubusercontent.com/5177337/133936552-9b11cb4e-5a95-4e66-a029-6822b8bd372b.png)
 
 ## Template Workshop
 
