@@ -25,3 +25,11 @@ a {
 .custom-font-size-17 {
   font-size: 4rem !important; 
 }
+
+.text-bixal-white {
+  color: white;
+}
+
+.bg-bixal-white {
+  background-color: white;
+}
