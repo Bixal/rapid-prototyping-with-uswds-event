@@ -8,11 +8,11 @@ We'll take you through a case study on how we improved the HHS OCR complaint por
 
 ## What to do before the event
 
-These suggestions are all optional, but if you're interested, you may get more out of time together if you do these things ahead of time:
+These suggestions are all optional, but if you're interested, you may get more out of our time together if you do these things ahead of time:
 - Read a [summary](https://github.com/Bixal/rapid-response-team/wiki/Project-story-%E2%80%94-USWDS-Screener-Prototyping-Tool) of the project we'll be covering.
 - Poke around the [live site](https://bixal.github.io/uswds-screener-prototyping-tool/) to see how it works.
 - Read the [readme](https://github.com/Bixal/uswds-screener-prototyping-tool#readme) of the GitHub project.
-- Create a [GitHub account](https://github.com/).
+- Create a [GitHub account](https://github.com/signup).
 - Try following the [instructions](https://github.com/Bixal/uswds-screener-prototyping-tool#how-to) in the readme for using our project as a template for your own project. And bring any questions or issues you run into!
 
 ## Agenda
@@ -39,7 +39,7 @@ We do this by partnering with leading federal agencies to conceive and create po
 
 ### Why we’re here
 
-At [Bixal](https://www.bixal.com/), we believe fast cycles of prototyping and testing accelerate learning, reduce risk, and improve outcomes. We started a dedicated internal team to explore new processes and tools for using web-based prototyping to help our delivery teams lower the barriers to making ideas more tangible more quickly.
+We help civic tech teams accelerate learning, reduce risk, and improve outcomes by making ideas more tangible more quickly using rapid web prototyping.
 
 ### Why it’s relevant
 
@@ -51,7 +51,7 @@ As part of the [21st Century Integrated Digital Experience Act](https://digital.
 - Support the growth of our business and practices
 - Contribute to the community
 
-*Additionally, we want to empower designers to take ownership of prototyping in the web medium and enable them to better collaborate with developers through the common language of the U.S. Web Design System.*
+*We want to empower designers to take ownership of prototyping in the web medium and enable them to better collaborate with developers through the common language of the U.S. Web Design System.*
 
 ### Principles
 
@@ -74,7 +74,7 @@ As part of the [21st Century Integrated Digital Experience Act](https://digital.
 
 A typical need we see in government is for people to fill out a simple screener before they complete a larger task. When these screeners are long, onerous, and confusing, they lead to wasted time and bad data.
 
-Drawing inspiration from one of our HHS projects, we decided to build an accessible, plain-language, effortless template to allow for rapid iteration of a screener, before starting on any production code.
+Drawing inspiration from one of our HHS projects, we decided to build an accessible, plain-language, readymade template to allow for rapid iteration of a screener, before starting on any production code.
 
 After making and testing 3 versions in less than 4 weeks, we demonstrated major improvements in user experience, accessibility, and usability that laid the groundwork for a better product.
 
@@ -94,9 +94,9 @@ After making and testing 3 versions in less than 4 weeks, we demonstrated major 
 
 - Custom questions: Set up any number of questions with their own answer text, related resources, and pathing based on responses. (Radio buttons only for now.)
 - Simple logic flow: For each answer, direct people to the next question, an exit page, or jump ahead to the success page.
-- Linked resources: Each question and exit page can include resource content stored in its own plain- text pages.
+- Linked resources: Each question and exit page can include resource content stored in its own plain-text pages.
 - Step indicator: Show people where they are in the process, even if you're not building the whole thing.
-- U.S. Web Design System: Built on USWDS for the best in accessible, responsive, usable web experiences for government-focused sites.
+- U.S. Web Design System: Built on USWDS for the best in accessible, responsive, usable web experiences for government websites.
 
 ### Before and after
 
@@ -117,7 +117,7 @@ Now you try! For this part of the event, we'll walk you through how to reuse our
 Here are the tasks we'll try together:
 
 1. Create a [GitHub account](https://github.com/signup) or log in.
-2. Make a copy of our [repository](https://github.com/Bixal/uswds-screener-prototyping-tool).
+2. Make a copy of our [repository](https://github.com/Bixal/uswds-screener-prototyping-tool/generate).
 3. Publish the site using GitHub Pages.
 4. Configure a few site settings.
 5. Edit question content.
