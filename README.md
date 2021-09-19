@@ -1,10 +1,10 @@
-# Rapid prototyping for the web using the U.S. Web Design System
+# Rapid prototyping for the web using the U.S. Web Design System Event
 
-At [Bixal](https://www.bixal.com/), we believe fast cycles of prototyping and testing accelerate learning, reduce risk, and improve outcomes. We started a dedicated internal team to explore new processes and tools for using web-based prototyping to help our delivery teams lower the barriers to making ideas more tangible more quickly.
+This project contains the presentation material and background information for our event, "Rapid prototyping for the web using the U.S. Web Design System."
 
-If you're here, you'll probably be joining our event where we, the Rapid Response team, will be presenting who we are and what we're all about. 
+We're making it available here for reference before, during, and after the event.
 
-We'll take you through a case study on how we improved the HHS OCR complaint portal assistant and then we'll walk you step-by-step on how to use our template to create your own complaint form screener. 
+The presentation is built using USWDS with custom Bixal branding. If you're interested in this approach for your own presentations, check out our [presentation template](https://github.com/Bixal/presentation-template).
 
 ## What to do before the event
 
@@ -25,7 +25,7 @@ These suggestions are all optional, but if you're interested, you may get more o
 
 ### About Bixal
 
-Bixal is a mission-driven organization determined to have a positive impact on the lives of people everywhere.
+[Bixal](https://www.bixal.com/) is a mission-driven organization determined to have a positive impact on the lives of people everywhere.
 We do this by partnering with leading federal agencies to conceive and create powerful data-driven customer experiences to better serve the American public and communities around the world.
 
 ### Who we are
