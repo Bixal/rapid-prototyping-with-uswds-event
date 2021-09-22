@@ -6,7 +6,7 @@ We're making it available here for reference before, during, and after the event
 
 The presentation is built using USWDS with custom Bixal branding. If you're interested in this approach for your own presentations, check out our [presentation template](https://github.com/Bixal/presentation-template).
 
-## What to do before the event
+## Event prep
 
 These suggestions are all optional, but if you're interested, you may get more out of our time together if you do these things ahead of time:
 - Read a [summary](https://github.com/Bixal/rapid-response-team/wiki/Project-story-%E2%80%94-USWDS-Screener-Prototyping-Tool) of the project we'll be covering.
