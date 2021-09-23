@@ -1,11 +1,11 @@
 ---
-layout: handout
-title: Rapid prototyping for the web using the U.S. Web Design System
+layout: default
+title: Rapid prototyping for the web using the U.S. Web Design System — Handout
 nav: Handout
 permalink: /handout/
 ---
 
-# Rapid prototyping for the web using the U.S. Web Design System Event
+# {{ page.title }} 
 
 This project contains the presentation material and background information for our event, "Rapid prototyping for the web using the U.S. Web Design System."
 

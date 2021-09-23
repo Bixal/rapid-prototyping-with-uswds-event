@@ -42,3 +42,31 @@ a {
 .bg-bixal-white {
   background-color: white;
 }
+
+.handout {
+  font-family: var(--bixal-font-sans-serif);
+  font-size: 125%;
+}
+
+.handout a {
+  color: var(--bixal-purple);
+}
+
+.handout p {
+  margin-top: .5em;
+}
+
+.handout img {
+  /* base-lightest */
+  border: 1px solid #f0f0f0;
+}
+
+.handout h1, .handout h2, .handout h3, .handout h4, .handout h5, .handout h6 {
+  font-family: var(--bixal-font-serif);
+  padding-top: .5em;
+  margin-bottom: 0;
+}
+
+.handout h2 {
+  border-top: 2px solid var(--bixal-teal);
+}
