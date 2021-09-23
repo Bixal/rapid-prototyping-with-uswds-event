@@ -128,7 +128,7 @@ Here are the tasks we'll try together:
 Here are some other things you can do once you get the hang of it:
 
 - Add new questions.
-- Edit home, exit, or success page content using markdown.
+- Edit home, exit, or success page content using [markdown](https://guides.github.com/features/mastering-markdown/).
 - Advanced: Change the styling of [layouts](https://jekyllrb.com/docs/step-by-step/04-layouts/) using [USWDS utility classes](https://designsystem.digital.gov/utilities/).
 
 ### Resources
