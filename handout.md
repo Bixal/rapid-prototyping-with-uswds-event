@@ -148,3 +148,7 @@ Here are some other things you can do once you get the hang of it:
     - [Brianna](https://www.linkedin.com/in/bnaolu/)
     - [Kayla](https://www.linkedin.com/in/kayla-chumley/)
     - [Philip](https://twitter.com/pglevy)
+
+
+View this project on [GitHub](https://github.com/Bixal/rapid-prototyping-with-uswds-event).
+{: .handout-footer .padding-y-3}

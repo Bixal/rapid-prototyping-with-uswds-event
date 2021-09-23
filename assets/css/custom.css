@@ -52,6 +52,10 @@ a {
   color: var(--bixal-purple);
 }
 
+.handout a:hover, .handout a:active, .handout a:focus {
+  text-decoration: none;
+}
+
 .handout p {
   margin-top: .5em;
 }
@@ -67,6 +71,6 @@ a {
   margin-bottom: 0;
 }
 
-.handout h2 {
+.handout h2, .handout-footer {
   border-top: 2px solid var(--bixal-teal);
 }
