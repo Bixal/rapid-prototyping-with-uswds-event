@@ -56,7 +56,7 @@ As part of the [21st Century Integrated Digital Experience Act](https://digital.
 ### Principles
 
 - Speed: With more making and less meetings, we decrease time to tangibility.
-- Tangibility: By making prototypes, not promises, we increase our time to alignment.
+- Tangibility: By making prototypes, not promises, we increase our rate of learning.
 - Reusability: With a focus on frameworks, we can make everything we do faster.
 - Openness: By sharing our work, we can benefit from and contribute to the community.
 
