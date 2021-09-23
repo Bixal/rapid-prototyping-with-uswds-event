@@ -3,15 +3,16 @@ layout: default
 title: Rapid prototyping for the web using the U.S. Web Design System — Handout
 nav: Handout
 permalink: /handout/
----
-
-# {{ page.title }} 
+--- 
 
 This project contains the presentation material and background information for our event, "Rapid prototyping for the web using the U.S. Web Design System."
+{: .font-sans-lg .bixal-font-sans-serif}
 
 We're making it available here for reference before, during, and after the event.
+{: .font-sans-lg .bixal-font-sans-serif}
 
 The presentation is built using USWDS with custom Bixal branding. If you're interested in this approach for your own presentations, check out our [presentation template](https://github.com/Bixal/presentation-template).
+{: .font-sans-lg .bixal-font-sans-serif}
 
 ## Event prep
 
@@ -62,10 +63,10 @@ As part of the [21st Century Integrated Digital Experience Act](https://digital.
 
 ### Principles
 
-- Speed: With more making and less meetings, we decrease time to tangibility.
-- Tangibility: By making prototypes, not promises, we increase our rate of learning.
-- Reusability: With a focus on frameworks, we can make everything we do faster.
-- Openness: By sharing our work, we can benefit from and contribute to the community.
+- **Speed**: With more making and less meetings, we decrease time to tangibility.
+- **Tangibility**: By making prototypes, not promises, we increase our rate of learning.
+- **Reusability**: With a focus on frameworks, we can make everything we do faster.
+- **Openness**: By sharing our work, we can benefit from and contribute to the community.
 
 ### What we do
 
@@ -99,11 +100,11 @@ After making and testing 3 versions in less than 4 weeks, we demonstrated major 
 
 ### Scope
 
-- Custom questions: Set up any number of questions with their own answer text, related resources, and pathing based on responses. (Radio buttons only for now.)
-- Simple logic flow: For each answer, direct people to the next question, an exit page, or jump ahead to the success page.
-- Linked resources: Each question and exit page can include resource content stored in its own plain-text pages.
-- Step indicator: Show people where they are in the process, even if you're not building the whole thing.
-- U.S. Web Design System: Built on USWDS for the best in accessible, responsive, usable web experiences for government websites.
+- **Custom questions**: Set up any number of questions with their own answer text, related resources, and pathing based on responses. (Radio buttons only for now.)
+- **Simple logic flow**: For each answer, direct people to the next question, an exit page, or jump ahead to the success page.
+- **Linked resources**: Each question and exit page can include resource content stored in its own plain-text pages.
+- **Step indicator**: Show people where they are in the process, even if you're not building the whole thing.
+- **U.S. Web Design System**: Built on USWDS for the best in accessible, responsive, usable web experiences for government websites.
 
 ### Before and after
 

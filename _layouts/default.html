@@ -18,8 +18,11 @@
 <body>
   <main id="main-content">
     {% if page.permalink == "/handout/" %}
-      <div class="grid-container handout measure-5">
-        {{ content }}
+      <div class="grid-container handout">
+        <h1>{{ page.title }}</h1>
+        <div class="measure-5 margin-top-2">
+          {{ content }}
+        </div>
       </div>
     {% else %}
       {% for slide in site.slides %}
