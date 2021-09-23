@@ -43,7 +43,7 @@ We help civic tech teams accelerate learning, reduce risk, and improve outcomes 
 
 ### Why it’s relevant
 
-As part of the [21st Century Integrated Digital Experience Act](https://digital.gov/resources/21st-century-integrated-digital-experience-act/), government agencies are required to modernize their websites using the U.S. Web Design System (USWDS) to improve the public's customer experience. Our team is working to empower designers to take ownership of prototyping in the web medium and enable them to better collaborate with developers through the common language of the USWDS.
+As part of the [21st Century Integrated Digital Experience Act](https://digital.gov/resources/21st-century-integrated-digital-experience-act/), government agencies are required to modernize their websites using the U.S. Web Design System (USWDS) to improve the public's customer experience.
 
 ### Our objectives
 
