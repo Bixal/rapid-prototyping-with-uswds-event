@@ -1,0 +1,15 @@
+<div class="grid-container">
+    <h1 class="bixal-font-serif">{{ site.title }} Notes</h1>
+    <ol id="presenterNotes" class="">
+        {% for slide in site.slides %}
+        <li class="tablet:font-body-md desktop:font-body-lg bixal-font-sans-serif margin-top-2">
+            <strong>{{ slide.title }}</strong>
+            {% if slide.notes %}
+            <ul>
+                <li class="line-height-sans-5">{{ slide.notes }}</li>
+            </ul>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ol>
+</div>
