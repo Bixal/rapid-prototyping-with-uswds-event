@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Rapid prototyping for the web using the U.S. Web Design System — Handout
-nav: Handout
+title: Handout
 permalink: /handout/
 --- 
 
