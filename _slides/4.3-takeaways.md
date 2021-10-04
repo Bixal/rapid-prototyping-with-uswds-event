@@ -1,11 +1,11 @@
 ---
-title: Takeaways
+title: Next steps
 template: text-with-image-bg
 heading-level: 3
-background-color: green
-text-color: navy
+background-color: navy
+text-color: green
 bg-image: colorful-wavy-lines.jpg
-text-order: last # first or last
+text-order: first # first or last
 image-alignment: left # left or right
 ---
 
